@@ -1,3 +1,3 @@
 pub trait System {
-    fn tick(delta_time: f32);
+    fn tick(&mut self, delta_time: f32);
 }
